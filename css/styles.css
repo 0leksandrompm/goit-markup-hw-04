@@ -1,0 +1,59 @@
+.webstudio {
+    color: #2196F3;
+}
+
+.Studio_color{
+    color: rgb(179, 28, 28);
+}
+.webstudio:hover,
+.webstudio:focus{
+    color: green;
+}
+.webstudio:active {
+    color: rgb(232, 85, 163);
+}
+
+.list_studio{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #212121;
+}
+.nav:hover {
+    color: green;
+}
+.Link_Studio, 
+.mail_link {
+    color: #2196F3;
+}
+.Link_Studio:hover,.mail_link:hover,
+.Link_Studio:focus,.mail_link:focus {
+color: green;
+}
+
+ul .Link_Studio:active, 
+.mail_link:active {
+    color: rgb(232, 85, 163);
+}
+.webstudio:active {
+    color: rgb(232, 85, 163);
+}
+
+.button{
+    background-color: #2196F3;
+    color: #f4f5f5;
+}
+.footer{
+    background-color: #2F303A;
+    color: white;
+}
+.button_title{
+        background-color: #2F303A;
+        color: white;
+        position:relative
+    }
+a{
+    color: rgb(6, 6, 6);
+}
+.footer_contacts a{
+    color: white;
+}

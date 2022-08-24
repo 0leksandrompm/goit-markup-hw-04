@@ -29,7 +29,6 @@
 .Link_Studio:focus,.mail_link:focus {
 color: green;
 }
-
 ul .Link_Studio:active, 
 .mail_link:active {
     color: rgb(232, 85, 163);

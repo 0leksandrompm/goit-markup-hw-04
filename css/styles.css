@@ -1,9 +1,12 @@
-.webstudio {
+.web {
     color: #2196F3;
 }
 
 .Studio_color{
-    color: rgb(179, 28, 28);
+    color: rgb(252, 251, 251);
+}
+.Studio_color_header {
+    color: rgb(6, 6, 6);
 }
 .webstudio:hover,
 .webstudio:focus{

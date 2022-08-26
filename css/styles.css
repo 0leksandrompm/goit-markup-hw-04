@@ -1,3 +1,4 @@
+ 
 .web {
     color: #2196F3;
 }
@@ -21,17 +22,7 @@
     font-style: normal;
     color: #212121;
 }
-.nav:hover {
-    color: green;
-}
-.Link_Studio, 
-.mail_link {
-    color: #2196F3;
-}
-.Link_Studio:hover,.mail_link:hover,
-.Link_Studio:focus,.mail_link:focus {
-color: green;
-}
+
 ul .Link_Studio:active, 
 .mail_link:active {
     color: rgb(232, 85, 163);
@@ -44,18 +35,39 @@ ul .Link_Studio:active,
     background-color: #2196F3;
     color: #f4f5f5;
 }
-.footer{
-    background-color: #2F303A;
+
+footer{
+    background-color: rgba(47, 48, 58, 1);
     color: white;
 }
+
 .button_title{
-        background-color: #2F303A;
-        color: white;
+        background-color: rgba(47, 48, 58, 1);
+        color: rgb(255, 255, 255);
         position:relative
     }
-a{
-    color: rgb(6, 6, 6);
-}
+
 .footer_contacts a{
     color: white;
+}
+
+.link:hover, link:focus {
+    color: #2196F3;
+}
+.footer_contacts .mail_link:hover {
+color:  rgba(100, 255, 255, 0.5);
+}
+.command{
+    background-color: rgba(245, 244, 250, 1);
+}
+button:hover {
+    background-color: rgba(33, 150, 243, 1);
+    color: #f4f5f5;
+}
+.link1 {
+    background-color: rgba(33, 150, 243, 1);
+    color: #f4f5f5;
+}
+.link2 {
+    color: rgba(33, 150, 243, 1);
 }

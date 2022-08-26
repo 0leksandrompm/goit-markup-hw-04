@@ -9,12 +9,12 @@
 .Studio_color_header {
     color: rgb(6, 6, 6);
 }
-.webstudio:hover,
-.webstudio:focus{
-    color: green;
+.web:hover,
+.web:focus{
+    color: rgb(128, 43, 0);
 }
-.webstudio:active {
-    color: rgb(232, 85, 163);
+.web:active {
+    background-color: rgb(232, 85, 163);
 }
 
 .list_studio{
@@ -67,7 +67,21 @@ button:hover {
 .link1 {
     background-color: rgba(33, 150, 243, 1);
     color: #f4f5f5;
+    cursor: pointer;
 }
 .link2 {
     color: rgba(33, 150, 243, 1);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }

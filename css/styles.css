@@ -166,3 +166,6 @@ body{
     display: block;
     background-color: #2196F3;
 }
+.list, .command_title, .footer_contacts, .any-works, .list_studio{
+    list-style: none;
+}

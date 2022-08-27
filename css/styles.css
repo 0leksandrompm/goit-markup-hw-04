@@ -1,11 +1,25 @@
+ body {
+     font-size: 14px;
+     line-height: calc(30/18);
+     font-family: 'Roboto';
+
+ }
  .web {
     color: #2196F3;
     font-family: Raleway;
-    font-size: 26px;
-    line-height:  35.96px; 
+    font-size: 14px;
+    line-height:  1.4; 
 }
+
 .list_studio{
-    font-family: Raleway;
+}
+
+.paragraf {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .Studio_color{
@@ -14,8 +28,8 @@
 .Studio_color_header {
     color: rgb(6, 6, 6);
     font-family: Raleway; 
-    font-size: 26px; 
-    line-height:  35.96px;
+    font-size: 16px; 
+    line-height:  1.4;
 }
 .web:hover,
 .web:focus{
@@ -47,18 +61,13 @@ footer{
         height: 200px;
         }
 
-h1{
-        position:static;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        /* or 136% */
-    
-        text-align: center;
-    
-        
+.body-title{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    /* or 136% */
+    text-align: center;
 }
 
 .footer_contacts a{
@@ -74,27 +83,25 @@ color:  rgba(100, 255, 255, 0.5);
 .command, .work-specific{
     background-color: rgba(245, 244, 250, 1);
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
-.command_title h3, .any-works h3{
+
+.command_title .name, .any-works .name{
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        /* identical to box height */
-    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
         text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #212121;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 button:hover {
@@ -102,24 +109,30 @@ button:hover {
     color: #f4f5f5;
 }
 .link {
+     cursor: pointer;
     color: black;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    font-weight: 500;
 }
+
 .link1 {
     background-color: rgba(33, 150, 243, 1);
     color: #f4f5f5;
     cursor: pointer;
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-        /* identical to box height, or 188% */
-    
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    /* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
+
 .link2 {
     color: rgba(33, 150, 243, 1);
 }
@@ -143,17 +156,13 @@ button:hover {
 .link, .link2, .web, .mail_link{
     text-decoration: none;
 }
-body{
-    font-size: 14px;
-    line-height: calc(30/18);
-   
-}
-.command_title p, .any-works p{
+
+.command_title .paragraf, .any-works .paragraf{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.875;
         /* identical to box height */
     
         text-align: center;
@@ -161,11 +170,13 @@ body{
     
         color: #212121;
 }
+
 .button_servise {
     margin: 0 auto;
     display: block;
     background-color: #2196F3;
 }
+
 .list, .command_title, .footer_contacts, .any-works, .list_studio{
     list-style: none;
 }

@@ -1,6 +1,11 @@
- 
-.web {
+ .web {
     color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height:  35.96px; 
+}
+.list_studio{
+    font-family: Raleway;
 }
 
 .Studio_color{
@@ -8,20 +13,15 @@
 }
 .Studio_color_header {
     color: rgb(6, 6, 6);
+    font-family: Raleway; 
+    font-size: 26px; 
+    line-height:  35.96px;
 }
 .web:hover,
 .web:focus{
     color: rgb(128, 43, 0);
 }
-.web:active {
-    background-color: rgb(232, 85, 163);
-}
 
-.list_studio{
-    font-family: 'Roboto';
-    font-style: normal;
-    color: #212121;
-}
 
 ul .Link_Studio:active, 
 .mail_link:active {
@@ -44,8 +44,22 @@ footer{
 .button_title{
         background-color: rgba(47, 48, 58, 1);
         color: rgb(255, 255, 255);
-        position:relative
-    }
+        height: 200px;
+        }
+
+h1{
+        position:static;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        text-align: center;
+    
+        
+}
 
 .footer_contacts a{
     color: white;
@@ -57,17 +71,54 @@ footer{
 .footer_contacts .mail_link:hover {
 color:  rgba(100, 255, 255, 0.5);
 }
-.command{
+.command, .work-specific{
     background-color: rgba(245, 244, 250, 1);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
 }
+.command_title h3, .any-works h3{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
 button:hover {
     background-color: rgba(33, 150, 243, 1);
     color: #f4f5f5;
+}
+.link {
+    color: black;
 }
 .link1 {
     background-color: rgba(33, 150, 243, 1);
     color: #f4f5f5;
     cursor: pointer;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
 }
 .link2 {
     color: rgba(33, 150, 243, 1);
@@ -84,4 +135,34 @@ button:hover {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+.work-specific{
+    text-align: center;
+}
+.link, .link2, .web, .mail_link{
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    line-height: calc(30/18);
+   
+}
+.command_title p, .any-works p{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.button_servise {
+    margin: 0 auto;
+    display: block;
+    background-color: #2196F3;
 }

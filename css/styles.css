@@ -1,182 +1,195 @@
- body {
-     font-size: 14px;
-     line-height: calc(30/18);
-     font-family: 'Roboto';
-
- }
- .web {
-    color: #2196F3;
-    font-family: Raleway;
-    font-size: 14px;
-    line-height:  1.4; 
+body {
+  font-size: 14px;
+  line-height: calc(30 / 18);
+  font-family: 'Roboto';
+}
+.web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: normal;
 }
 
-.list_studio{
+.list_studio {
 }
 
 .paragraf {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.8;
-    letter-spacing: 0.03em;
-    color: #757575;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-.Studio_color{
-    color: rgb(252, 251, 251);
+.Studio_color {
+  color: rgb(252, 251, 251);
 }
 .Studio_color_header {
-    color: rgb(6, 6, 6);
-    font-family: Raleway; 
-    font-size: 16px; 
-    line-height:  1.4;
+  color: rgb(6, 6, 6);
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 1.4;
 }
 .web:hover,
-.web:focus{
-    color: rgb(128, 43, 0);
+.web:focus {
+  color: rgb(128, 43, 0);
 }
 
-
-ul .Link_Studio:active, 
+ul .Link_Studio:active,
 .mail_link:active {
-    color: rgb(232, 85, 163);
+  color: rgb(232, 85, 163);
 }
 .webstudio:active {
-    color: rgb(232, 85, 163);
+  color: rgb(232, 85, 163);
 }
 
-.button{
-    background-color: #2196F3;
-    color: #f4f5f5;
-}
-
-footer{
-    background-color: rgba(47, 48, 58, 1);
-    color: white;
-}
-
-.button_title{
-        background-color: rgba(47, 48, 58, 1);
-        color: rgb(255, 255, 255);
-        height: 200px;
-        }
-
-.body-title{
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    /* or 136% */
-    text-align: center;
-}
-
-.footer_contacts a{
-    color: white;
-}
-
-.link:hover, link:focus {
-    color: #2196F3;
-}
-.footer_contacts .mail_link:hover {
-color:  rgba(100, 255, 255, 0.5);
-}
-.command, .work-specific{
-    background-color: rgba(245, 244, 250, 1);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-.command_title .name, .any-works .name{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.2;
-    /* identical to box height */
-        text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-button:hover {
-    background-color: rgba(33, 150, 243, 1);
-    color: #f4f5f5;
-}
-.link {
-     cursor: pointer;
-    color: black;
-    font-size: 14px;
-    line-height: 1.4;
-    letter-spacing: normal;
-    font-weight: 500;
-}
-
-.link1 {
-    background-color: rgba(33, 150, 243, 1);
-    color: #f4f5f5;
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.4;
-    /* identical to box height, or 188% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
-
-.link2 {
-    color: rgba(33, 150, 243, 1);
-}
-
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
-.work-specific{
-    text-align: center;
-}
-.link, .link2, .web, .mail_link{
-    text-decoration: none;
-}
-
-.command_title .paragraf, .any-works .paragraf{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.875;
-        /* identical to box height */
-    
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #212121;
+.button {
+  background-color: #2196f3;
+  color: #f4f5f5;
 }
 
 .button_servise {
-    margin: 0 auto;
-    display: block;
-    background-color: #2196F3;
+  margin: 0 auto;
+  display: block;
+  background-color: #2196f3;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  cursor: pointer;
 }
 
-.list, .command_title, .footer_contacts, .any-works, .list_studio{
-    list-style: none;
+footer {
+  background-color: rgba(47, 48, 58, 1);
+  color: white;
+}
+
+.button_title {
+  background-color: rgba(47, 48, 58, 1);
+  color: rgb(255, 255, 255);
+  height: 200px;
+}
+
+.body-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  /* or 136% */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer_contacts a {
+  color:rgba(255, 255, 255, 0.6);
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.footer_contacts .mail_link:hover {
+  color: rgba(100, 255, 255, 0.5);
+}
+.command,
+.work-specific {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.command_title .name,
+.any-works .name {
+  line-height: 1.2;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+button:hover {
+  background-color: rgba(33, 150, 243, 1);
+  color: #f4f5f5;
+}
+.link {
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+
+.link1 {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+}
+.list-items > .link1:first-child {
+  background-color: rgba(33, 150, 243, 1);
+  color: #f4f5f5;
+}
+
+.link2 {
+  color: rgba(33, 150, 243, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.work-specific {
+  text-align: center;
+}
+.link,
+.link2,
+.web,
+.mail_link {
+  text-decoration: none;
+}
+
+.command_title .paragraf,
+.any-works .paragraf {
+  text-align: center;
+}
+
+.list,
+.command_title,
+.footer_contacts,
+.any-works,
+.list_studio {
+  list-style: none;
+}
+
+.mail_link .link {
+  color: #757575;
+}
+
+.title-section {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing:normal;
+}
+
+.paragraf-fut{
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: normal;
+color: #FFFFFF;
+}
+
+address {
+  font-style: normal;
 }

@@ -6,7 +6,7 @@ body {
 .web {
   color: #2196f3;
   font-family: Raleway;
-  font-size: 14px;
+  font-size: 26px;
   line-height: 1.4;
   letter-spacing: normal;
 }
@@ -15,7 +15,6 @@ body {
 }
 
 .paragraf {
-  font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
@@ -26,9 +25,6 @@ body {
 }
 .Studio_color_header {
   color: rgb(6, 6, 6);
-  font-family: Raleway;
-  font-size: 16px;
-  line-height: 1.4;
 }
 .web:hover,
 .web:focus {
@@ -53,9 +49,12 @@ ul .Link_Studio:active,
   display: block;
   background-color: #2196f3;
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.625;
   letter-spacing: normal;
   cursor: pointer;
+  font-family: inherit;
+  color: #FFFFFF;
+  font-weight: 700;
 }
 
 footer {
@@ -72,7 +71,7 @@ footer {
 .body-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
   /* or 136% */
   text-align: center;
   text-transform: uppercase;
@@ -102,10 +101,11 @@ footer {
 .command_title .name,
 .any-works .name {
   line-height: 1.2;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 button:hover {
@@ -115,8 +115,7 @@ button:hover {
 .link {
   cursor: pointer;
   color: black;
-  font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.14;
   letter-spacing: normal;
   font-weight: 500;
 }
@@ -124,9 +123,9 @@ button:hover {
 .link1 {
   cursor: pointer;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.625;
   letter-spacing: 0.06em;
+  font-family: inherit;
 }
 .list-items > .link1:first-child {
   background-color: rgba(33, 150, 243, 1);
@@ -135,6 +134,9 @@ button:hover {
 
 .link2 {
   color: rgba(33, 150, 243, 1);
+  line-height: 1.4;
+  letter-spacing: normal;
+  font-weight: 500;
 }
 
 .visually-hidden {
@@ -163,6 +165,7 @@ button:hover {
 .command_title .paragraf,
 .any-works .paragraf {
   text-align: center;
+   font-size: 16px;
 }
 
 .list,
@@ -178,13 +181,13 @@ button:hover {
 }
 
 .title-section {
-  font-size: 14px;
-  line-height: 16px;
+
+  line-height: 1.15;
   letter-spacing:normal;
+  font-size: 14px;
 }
 
 .paragraf-fut{
-font-size: 14px;
 line-height: 1.8;
 letter-spacing: normal;
 color: #FFFFFF;

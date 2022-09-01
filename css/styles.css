@@ -2,6 +2,7 @@ body {
   font-size: 14px;
   line-height: calc(30 / 18);
   font-family: 'Roboto';
+  
 }
 .web {
   color: #2196f3;
@@ -9,14 +10,29 @@ body {
   font-size: 26px;
   line-height: 1.4;
   letter-spacing: normal;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
+  outline: 1px solid red;
 }
 
-.nav{
-  
+header {
+  width: 1600px;
+  height: 80px;
+  display:inline-flex;
+}
+
+.header-list {
+}
+
+.nav {
+  display: inline-flex
 }
 
 .list_studio {
-  
+  display: inline-flex;
+  outline: 1px solid red;
 }
 
 .paragraf {
@@ -27,15 +43,15 @@ body {
 .command_title .paragraf,
 .any-works .paragraf {
   text-align: center;
-   font-size: 16px;
+  font-size: 16px;
 }
 
-.command_title .paragraf{
-line-height: 1.2;
+.command_title .paragraf {
+  line-height: 1.2;
 }
 
 .any-works .paragraf {
-line-height: 1.875;
+  line-height: 1.875;
 }
 
 .Studio_color {
@@ -63,7 +79,7 @@ ul .Link_Studio:active,
 }
 
 .button_servise {
-  margin: 0 auto;
+  margin: 10px 32px 10px;;
   display: block;
   background-color: #2196f3;
   font-size: 16px;
@@ -71,8 +87,10 @@ ul .Link_Studio:active,
   letter-spacing: normal;
   cursor: pointer;
   font-family: inherit;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
+  outline: 1px solid red;
+ margin: 30px 692px 200px ;
 }
 
 footer {
@@ -83,20 +101,24 @@ footer {
 .button_title {
   background-color: rgba(47, 48, 58, 1);
   color: rgb(255, 255, 255);
-  height: 200px;
+  height: 600px;
+  width: 1600px;
 }
 
 .body-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   text-align: center;
   text-transform: uppercase;
+  margin: 200px 452px 30px;
+  display:inline-block;
+  outline: 1px solid red;
+  
 }
 
 .footer_contacts a {
-  color:rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .link:hover,
@@ -117,19 +139,18 @@ footer {
 }
 
 .name {
-   text-align: center;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-
 }
 
-.command_title .name{
-   font-size: 16px;
+.command_title .name {
+  font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
 }
 
-.any-works .name{
+.any-works .name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -145,6 +166,11 @@ button:hover {
   line-height: 1.14;
   letter-spacing: normal;
   font-weight: 500;
+  
+  outline: 1px solid red;
+  margin-top: 16px;
+  display:inline-block;
+  margin-left: 50px;
 }
 
 .link1 {
@@ -154,6 +180,7 @@ button:hover {
   letter-spacing: 0.06em;
   font-family: inherit;
   font-size: 16px;
+  outline: 1px solid red;
 }
 .list-items > .link1:first-child {
   background-color: rgba(33, 150, 243, 1);
@@ -165,6 +192,11 @@ button:hover {
   line-height: 1.4;
   letter-spacing: normal;
   font-weight: 500;
+  margin-left: 93px;
+  margin-top: 16px;
+  
+  outline: 1px solid red;
+  display: block;
 }
 
 .visually-hidden {
@@ -183,6 +215,7 @@ button:hover {
 .work-specific {
   text-align: center;
 }
+
 .link,
 .link2,
 .web,
@@ -198,23 +231,39 @@ button:hover {
   list-style: none;
 }
 
+.visually-hidden .list{
+  width: 1170px;
+  margin: 94px 215px;
+  display: block;
+  outline: 1px solid red;
+}
+
 .mail_link .link {
   color: #757575;
+ 
+
+}
+
+.mail_link{
+  margin-left: 344px;
 }
 
 .title-section {
-
   line-height: 1.15;
-  letter-spacing:normal;
+  letter-spacing: normal;
   font-size: 14px;
 }
 
-.paragraf-fut{
-line-height: 1.8;
-letter-spacing: normal;
-color: #FFFFFF;
+.paragraf-fut {
+  line-height: 1.8;
+  letter-spacing: normal;
+  color: #ffffff;
 }
 
 address {
   font-style: normal;
+}
+
+.about-us{
+  display: inline-block;
 }

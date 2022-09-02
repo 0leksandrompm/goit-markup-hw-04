@@ -2,34 +2,40 @@ body {
   font-size: 14px;
   line-height: calc(30 / 18);
   font-family: 'Roboto';
-  
 }
 
-.web {
+.header_web {
   color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.4;
   letter-spacing: normal;
   display: block;
-  margin-top: 24px;
-  margin-bottom: 25px;
   margin-left: 215px;
-  outline: 1px solid red;
+  margin-top: 24px;
+}
+
+.footer_web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  display: block;
+  margin-left: 215px;
+  margin-bottom: 20px;
 }
 
 header {
   width: 1600px;
   height: 80px;
-  display:inline-flex;
+  display: inline-flex;
   text-decoration: none;
 }
 
 .header-list {
-  display: block;
-  flex-direction: row;
-  outline: 1px solid red;
-  margin-left: 344px;
+  display: inline-flex;
+  margin-left: 294px;
 }
 
 .nav {
@@ -38,7 +44,7 @@ header {
 
 .list_studio {
   display: inline-flex;
-  
+  padding: 0px;
 }
 
 .paragraf {
@@ -66,13 +72,15 @@ header {
 .Studio_color_header {
   color: rgb(6, 6, 6);
 }
-.web:hover,
-.web:focus {
+.header_web:hover,
+.footer_web:hover,
+.footer_web:focus .header_web:focus {
   color: rgb(128, 43, 0);
 }
 
 ul .Link_Studio:active,
-.mail_link:active {
+.mail_link:active,
+.foot_link:active {
   color: rgb(232, 85, 163);
 }
 .webstudio:active {
@@ -85,7 +93,7 @@ ul .Link_Studio:active,
 }
 
 .button_servise {
-  margin: 10px 32px 10px;;
+  margin: 10px 32px 10px;
   display: block;
   background-color: #2196f3;
   font-size: 16px;
@@ -95,13 +103,15 @@ ul .Link_Studio:active,
   font-family: inherit;
   color: #ffffff;
   font-weight: 700;
-  outline: 1px solid red;
- margin: 30px 692px 200px ;
+  margin: 30px 692px 200px;
 }
 
 footer {
   background-color: rgba(47, 48, 58, 1);
   color: white;
+  width: 1600px;
+  height: 252px;
+  padding: 60px;
 }
 
 .button_title {
@@ -119,9 +129,7 @@ footer {
   text-transform: uppercase;
   margin-left: 452px;
   margin-top: 200px;
-  display:inline-block;
-  outline: 1px solid red;
-  
+  display: inline-block;
 }
 
 .footer_contacts a {
@@ -156,27 +164,29 @@ footer {
   line-height: 1.2;
   font-weight: 500;
 }
-.command_title:first-child{
+.command_title:first-child {
   margin-left: 215px;
 }
-.command_title{
+.command_title {
   padding: 0px;
+  width: 1170px;
 }
 
 .command-fon {
-   background-color: #ffffff;
-   margin-left: 30px;
-  }
+  background-color: #ffffff;
+  margin-left: 30px;
+  outline: 1px solid rgb(182, 175, 175);
+}
 
-  .command-fon:first-child {
-   margin-left: 0px;
-  }
+.command-fon:first-child {
+  margin-left: 0px;
+}
 
-
-.command-section{
-  background-color: #F5F4FA;
-  width: 1600px;
-  margin-left: 215px;
+.command-section {
+  box-sizing: content-box;
+  background-color: #f5f4fa;
+  width: 1170px;
+  padding-left: 215px;
 }
 
 .any-works .name {
@@ -195,10 +205,9 @@ button:hover {
   line-height: 1.14;
   letter-spacing: normal;
   font-weight: 500;
-  
-  outline: 1px solid red;
+
   margin-top: 16px;
-  display:inline-block;
+  display: inline-block;
   margin-left: 50px;
 }
 
@@ -209,7 +218,6 @@ button:hover {
   letter-spacing: 0.06em;
   font-family: inherit;
   font-size: 16px;
-  outline: 1px solid red;
 }
 .list-items > .link1:first-child {
   background-color: rgba(33, 150, 243, 1);
@@ -223,8 +231,7 @@ button:hover {
   font-weight: 500;
   margin-left: 93px;
   margin-top: 16px;
-  
-  outline: 1px solid red;
+
   display: block;
 }
 
@@ -248,7 +255,8 @@ button:hover {
 .link,
 .link2,
 .web,
-.mail_link {
+.mail_link,
+.foot_link {
   text-decoration: none;
 }
 
@@ -258,35 +266,57 @@ button:hover {
 .any-works,
 .list_studio {
   list-style: none;
-  outline: 1px solid red;
   display: flex;
-
 }
 
-.list{
+.footer_contacts {
+  display: list-item;
+  margin-left: 215px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.footer_contacts.mail_link {
+  margin: 0px;
+}
+
+.fut-adress {
+  margin-left: 215px;
+}
+
+.paragraf-fut {
+  line-height: 1.8;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: inline;
+  margin-top: 20px;
+}
+
+.list {
   padding: 0px;
   margin: 0px;
 }
 
-.visually-hidden .list{
+.visually-hidden .list {
   width: 1170px;
   margin: 94px 215px;
   display: block;
-  outline: 1px solid red;
 }
+
+/* rjhtuedfnb */
 
 .mail_link .link {
   color: #757575;
-  display: inline-block;
-  outline: 1px solid red;
-  margin-left: 0px;
-
+  margin-left: 50px;
+  margin-top: 32px;
+  display: inline-table;
 }
 
-.mail_link:last-child{
- margin-left: 50px;
-
-}
+.mail_link:last-child {
+  margin-left: 50px;
+  }
 
 .title-section {
   line-height: 1.15;
@@ -294,19 +324,13 @@ button:hover {
   font-size: 14px;
 }
 
-.paragraf-fut {
-  line-height: 1.8;
-  letter-spacing: normal;
-  color: #ffffff;
-}
-
 address {
   font-style: normal;
+  display: inline;
 }
 
-.about-us{
+.about-us {
   display: inline-block;
-  
 }
 
 .work {
@@ -314,15 +338,34 @@ address {
   width: 1170px;
 }
 
-.work-photo{
+.work-photo {
   margin-left: 30px;
 }
-.work-photo:first-child{
-   margin-left: 0px;
+.work-photo:first-child {
+  margin-left: 0px;
 }
-.attention{
+.attention {
   width: 1170px;
   margin-left: 215px;
   margin-top: 94px;
- 
+}
+
+.foot_link {
+  color: #757575;
+  display: inline-block;
+
+  margin-left: 0px;
+  margin-top: 9px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.nav-list link:hover,
+.nav-list link:focus {
+  color: #2196f3;
 }

@@ -32,6 +32,7 @@ header {
   display: inline-flex;
   text-decoration: none;
   margin-top: 0px;
+  border: 1px solid #ECECEC;
 }
 
 .header-list {
@@ -416,4 +417,8 @@ address {
   lcolor: #757575;
   margin-top: 4px;
   text-align: center;
+}
+
+.border-work{
+border: 1px solid #EEEEEE;
 }

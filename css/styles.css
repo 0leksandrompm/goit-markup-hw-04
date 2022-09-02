@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto';
   
 }
+
 .web {
   color: #2196f3;
   font-family: Raleway;
@@ -21,18 +22,23 @@ header {
   width: 1600px;
   height: 80px;
   display:inline-flex;
+  text-decoration: none;
 }
 
 .header-list {
+  display: block;
+  flex-direction: row;
+  outline: 1px solid red;
+  margin-left: 344px;
 }
 
 .nav {
-  display: inline-flex
+  display: inline-flex;
 }
 
 .list_studio {
   display: inline-flex;
-  outline: 1px solid red;
+  
 }
 
 .paragraf {
@@ -111,7 +117,8 @@ footer {
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
-  margin: 200px 452px 30px;
+  margin-left: 452px;
+  margin-top: 200px;
   display:inline-block;
   outline: 1px solid red;
   
@@ -148,6 +155,28 @@ footer {
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
+}
+.command_title:first-child{
+  margin-left: 215px;
+}
+.command_title{
+  padding: 0px;
+}
+
+.command-fon {
+   background-color: #ffffff;
+   margin-left: 30px;
+  }
+
+  .command-fon:first-child {
+   margin-left: 0px;
+  }
+
+
+.command-section{
+  background-color: #F5F4FA;
+  width: 1600px;
+  margin-left: 215px;
 }
 
 .any-works .name {
@@ -229,6 +258,14 @@ button:hover {
 .any-works,
 .list_studio {
   list-style: none;
+  outline: 1px solid red;
+  display: flex;
+
+}
+
+.list{
+  padding: 0px;
+  margin: 0px;
 }
 
 .visually-hidden .list{
@@ -240,12 +277,15 @@ button:hover {
 
 .mail_link .link {
   color: #757575;
- 
+  display: inline-block;
+  outline: 1px solid red;
+  margin-left: 0px;
 
 }
 
-.mail_link{
-  margin-left: 344px;
+.mail_link:last-child{
+ margin-left: 50px;
+
 }
 
 .title-section {
@@ -266,4 +306,23 @@ address {
 
 .about-us{
   display: inline-block;
+  
+}
+
+.work {
+  margin-left: 215px;
+  width: 1170px;
+}
+
+.work-photo{
+  margin-left: 30px;
+}
+.work-photo:first-child{
+   margin-left: 0px;
+}
+.attention{
+  width: 1170px;
+  margin-left: 215px;
+  margin-top: 94px;
+ 
 }

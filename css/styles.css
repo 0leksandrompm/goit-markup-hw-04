@@ -31,6 +31,7 @@ header {
   height: 80px;
   display: inline-flex;
   text-decoration: none;
+  margin-top: 0px;
 }
 
 .header-list {
@@ -51,11 +52,27 @@ header {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 10px;
 }
+
+
+
 .command_title .paragraf,
 .any-works .paragraf {
   text-align: center;
   font-size: 16px;
+}
+
+                                        /* portfolio */
+.any-works{
+  list-style: none;
+  width: 1170px;
+}
+
+.any-items{
+  display: inline-block;
+  margin-top: 30px;
+  
 }
 
 .command_title .paragraf {
@@ -263,7 +280,6 @@ button:hover {
 .list,
 .command_title,
 .footer_contacts,
-.any-works,
 .list_studio {
   list-style: none;
   display: flex;
@@ -305,7 +321,6 @@ button:hover {
   display: block;
 }
 
-/* rjhtuedfnb */
 
 .mail_link .link {
   color: #757575;
@@ -368,4 +383,37 @@ address {
 .nav-list link:hover,
 .nav-list link:focus {
   color: #2196f3;
+}
+
+.port{
+  width: 1170px;
+  height: 1360px;
+  margin-top: 100px;
+  margin-left: 215px;
+}
+
+.list-but{
+  list-style: none;
+  padding: 0px;
+  margin-left: 413px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  }
+
+  .name-work{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.any-paragraf{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875px;
+  lcolor: #757575;
+  margin-top: 4px;
+  text-align: center;
 }

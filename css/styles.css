@@ -4,6 +4,11 @@ body {
   font-family: 'Roboto';
 }
 
+.container {
+  width: 1600px;
+  height: 2346px;
+}
+
 .header_web {
   color: #2196f3;
   font-family: Raleway;
@@ -32,7 +37,7 @@ header {
   display: inline-flex;
   text-decoration: none;
   margin-top: 0px;
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
 
 .header-list {
@@ -54,9 +59,9 @@ header {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+  width: 270px;
+  margin-left: 30px;
 }
-
-
 
 .command_title .paragraf,
 .any-works .paragraf {
@@ -64,20 +69,22 @@ header {
   font-size: 16px;
 }
 
-                                        /* portfolio */
-.any-works{
+/* portfolio */
+.any-works {
   list-style: none;
   width: 1170px;
 }
 
-.any-items{
+.any-items {
   display: inline-block;
   margin-top: 30px;
-  
 }
 
 .command_title .paragraf {
   line-height: 1.2;
+}
+.command_title {
+  list-style: none;
 }
 
 .any-works .paragraf {
@@ -187,24 +194,22 @@ footer {
 }
 .command_title {
   padding: 0px;
-  width: 1170px;
 }
 
 .command-fon {
   background-color: #ffffff;
   margin-left: 30px;
-  outline: 1px solid rgb(182, 175, 175);
+  display: inline-block;
+  width: 270px;
 }
 
 .command-fon:first-child {
-  margin-left: 0px;
+  margin-left: 215px;
 }
 
 .command-section {
   box-sizing: content-box;
   background-color: #f5f4fa;
-  width: 1170px;
-  padding-left: 215px;
 }
 
 .any-works .name {
@@ -278,8 +283,6 @@ button:hover {
   text-decoration: none;
 }
 
-.list,
-.command_title,
 .footer_contacts,
 .list_studio {
   list-style: none;
@@ -313,7 +316,10 @@ button:hover {
 
 .list {
   padding: 0px;
-  margin: 0px;
+  margin-left: auto px;
+  margin-right: auto;
+  list-style: none;
+  display: inline;
 }
 
 .visually-hidden .list {
@@ -321,7 +327,6 @@ button:hover {
   margin: 94px 215px;
   display: block;
 }
-
 
 .mail_link .link {
   color: #757575;
@@ -332,12 +337,13 @@ button:hover {
 
 .mail_link:last-child {
   margin-left: 50px;
-  }
+}
 
 .title-section {
   line-height: 1.15;
   letter-spacing: normal;
   font-size: 14px;
+  margin-left: 30px;
 }
 
 address {
@@ -345,25 +351,16 @@ address {
   display: inline;
 }
 
-.about-us {
-  display: inline-block;
-}
-
-.work {
+.about:first-child {
   margin-left: 215px;
-  width: 1170px;
+}
+.about {
+  display: inline-block;
 }
 
 .work-photo {
   margin-left: 30px;
-}
-.work-photo:first-child {
-  margin-left: 0px;
-}
-.attention {
-  width: 1170px;
-  margin-left: 215px;
-  margin-top: 94px;
+  display: inline-block;
 }
 
 .foot_link {
@@ -377,7 +374,8 @@ address {
 .nav-list {
   list-style: none;
   padding: 0px;
-  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
 }
 
@@ -386,31 +384,31 @@ address {
   color: #2196f3;
 }
 
-.port{
+.port {
   width: 1170px;
   height: 1360px;
   margin-top: 100px;
   margin-left: 215px;
 }
 
-.list-but{
+.list-but {
   list-style: none;
   padding: 0px;
   margin-left: 413px;
   margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
-  }
+}
 
-  .name-work{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    margin-top: 20px;
-    text-align: center;
-  }
+.name-work {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin-top: 20px;
+  text-align: center;
+}
 
-.any-paragraf{
+.any-paragraf {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875px;
@@ -419,6 +417,33 @@ address {
   text-align: center;
 }
 
-.border-work{
-border: 1px solid #EEEEEE;
+.border-work {
+  border: 1px solid #eeeeee;
+}
+
+.section {
+  padding-top: 94px;
+  box-sizing: border-box;}
+
+  main section:last-child {
+    background-color: #f5f4fa;
+  }
+
+main section:first-child {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+
+.body-title {
+  font-size: 60px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: block;
+}
+
+.work-photo:first-child {
+  margin-left: 215px;
 }

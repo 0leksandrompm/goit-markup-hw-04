@@ -1,3 +1,14 @@
+/* COLOR LINK */
+:root {
+  --bg-col-grey: rgba(175, 177, 184, 1);
+  --foc-col-blu: rgba(33, 150, 243, 1);
+  --foc-col-white: rgba(255, 255, 255, 1);
+  --foc-col-whited: rgba(255, 255, 255, 0.1)
+  }
+
+
+
+
 /* погнали */
 body {
   font-size: 14px;
@@ -23,7 +34,13 @@ body {
  }
 
 .section {
-  background-color: #2f303a;
+  background-color: #C4C4C4;
+  background-image: 
+  linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/Img\ Overlay.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;  
   color: white;
   padding: 200px 0;
   max-width: 1600px;
@@ -54,6 +71,24 @@ padding-bottom: 94px;
 max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: 
+  rgba(245, 244, 250, 1);
+}
+
+.our{
+  width: 270px;
+  height: 120px;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: 
+  rgba(245, 244, 250, 1);
+ }
+ 
+.our-icon{
+  
+
 }
 
 .my_section {
@@ -130,6 +165,7 @@ max-width: 1600px;
   color: #757575;
   margin: 0px;
   width: 270px;
+  margin-bottom: 16px;
 }
 .transcript{
   padding-top: 30px;
@@ -152,6 +188,12 @@ max-width: 1600px;
   flex-wrap: wrap;
 }
 
+.any-items:first-child {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+
 .any-items {
    
 }
@@ -164,6 +206,45 @@ max-width: 1600px;
   display: flex;
   margin: 0;
 }
+
+.social-icon{
+  list-style: none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--bg-col-grey);
+  gap: 22px;
+  padding: 0%;
+}
+
+.link-icon{
+
+  border: none;
+  fill:var(--bg-col-grey);
+  
+  }
+
+  
+
+.klients{
+  list-style: none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--bg-col-blu);
+  gap: 22px;
+  padding: 0%;
+}
+
+.icon-items{
+  border: 1px solid 
+  rgba(175, 177, 184, 1);
+}
+
+.ellips{
+
+}
+
 
 .any-works .paragraf {
   line-height: 1.875;
@@ -224,7 +305,12 @@ footer {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
  }
+
+ .wellkom{
+  margin-left: 70px;
+}
 
 .button_title {
   background-color: rgba(47, 48, 58, 1);
@@ -243,9 +329,6 @@ footer {
   margin: 0 auto;
  }
 
-.footer_contacts a {
-  color: rgba(255, 255, 255, 0.6);
-}
 
 .link:hover,
 .link:focus {
@@ -257,9 +340,7 @@ footer {
   color: #2196f3;
 }
 
-.footer_contacts .mail_link:hover {
-  color: rgba(100, 255, 255, 0.5);
-}
+
 .command,
 .work-specific {
   font-weight: 700;
@@ -296,10 +377,44 @@ footer {
   margin-left: 30px;
   width: 270px;
   margin-left: 30px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
 .command-fon:first-child {
    margin-left: 0px;
 }
+
+
+.fon{
+  fill: var(--bg-col-grey);
+
+}
+
+.fon:focus, .fon:hover{
+  fill:var(--foc-col-blu);
+
+  }
+
+
+.fon-fut{
+  fill: var(--foc-col-whited);
+  stroke:var(--foc-col-white);
+}
+
+
+    .fon-fut:focus, .fon-fut:hover{
+      fill:var(--foc-col-blu);
+      stroke:var(--foc-col-white);
+    }
+
+  .klient-icon{
+    fill: var(--bg-col-grey);
+    display: block;
+   }
+
+  .klient-icon:focus, .klient-icon:hover{
+    fill: var(--foc-col-blu);
+    border: 1px solid  var(--foc-col-blu);
+  }
 
 .any-works .name {
   font-weight: 700;
@@ -436,6 +551,11 @@ button:hover {
   margin: 94px 215px;
   display: block;
 }
+.mail_link {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 
 .mail_link .link {
   color: #757575;
@@ -443,7 +563,7 @@ button:hover {
 
 .mail_link:last-child {
   margin-left: 50px;
-}
+}n
 
 address {
   font-style: normal;
@@ -452,7 +572,7 @@ address {
 
 .about {
   width: 270px;
-}
+ }
 
 .work-photo {
   margin-left: 30px;
@@ -509,4 +629,22 @@ address {
 
 .work-foto{
   display: block;
+}
+
+.wellkoms {
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+   margin: 0px 0px 20px 0px;
+}
+
+.foot-icon{
+  fill:none;
+  stroke: rgba(255, 255, 255, 0.1);
+  list-style: none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  padding: 0%;
+  color: red;
 }

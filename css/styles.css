@@ -39,7 +39,7 @@ body {
   linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/Img\ Overlay.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top right;  
   color: white;
   padding: 200px 0;
@@ -71,9 +71,8 @@ padding-bottom: 94px;
 max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: 
-  rgba(245, 244, 250, 1);
-}
+  background-color:rgba(245, 244, 250, 1);
+ }
 
 .our{
   width: 270px;
@@ -84,6 +83,7 @@ max-width: 1600px;
   margin-bottom: 30px;
   background-color: 
   rgba(245, 244, 250, 1);
+
  }
  
 .our-icon{
@@ -94,6 +94,13 @@ max-width: 1600px;
 .my_section {
     padding-bottom: 94px;
     max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .const_section {
+    padding-bottom: 94px;
+    padding-top: 94px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -165,8 +172,52 @@ max-width: 1600px;
   color: #757575;
   margin: 0px;
   width: 270px;
-  margin-bottom: 16px;
 }
+
+.ellips:hover, .ellips:focus{
+ 
+  background-color: #2196f3;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  margin: 0;
+  }
+
+
+.ellips:hover .link-icon, .ellips:focus .link-icon  {
+  fill:var(--foc-col-white);
+  }
+
+.ellips{
+  width: 44px;
+  height: 44px;
+  background-color:var(--foc-col-white);
+  display: block;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.link-icon{
+  border: none;
+  fill:var(--bg-col-grey);
+  }
+
+.social-icon{
+  list-style: none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--bg-col-grey);
+  gap: 22px;
+  padding: 16px 0 0 0;
+  margin: 0;
+}
+
 .transcript{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -207,22 +258,7 @@ max-width: 1600px;
   margin: 0;
 }
 
-.social-icon{
-  list-style: none;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  fill: var(--bg-col-grey);
-  gap: 22px;
-  padding: 0%;
-}
 
-.link-icon{
-
-  border: none;
-  fill:var(--bg-col-grey);
-  
-  }
 
   
 
@@ -234,17 +270,15 @@ max-width: 1600px;
   fill: var(--bg-col-blu);
   gap: 22px;
   padding: 0%;
+  margin: 0%;
 }
+
+
 
 .icon-items{
   border: 1px solid 
   rgba(175, 177, 184, 1);
-}
-
-.ellips{
-
-}
-
+}li
 
 .any-works .paragraf {
   line-height: 1.875;
@@ -330,13 +364,17 @@ footer {
  }
 
 
-.link:hover,
-.link:focus {
+.link:hover, .link:focus{
   color: #2196f3;
 }
 
-.mail_link:hover,
-.mail_link:focus {
+.link:hover .header-svg,  .link:focus .header-svg{
+  fill:#2196f3;
+}
+
+
+.mail_link:hover .link ,
+.mail_link:focus .link {
   color: #2196f3;
 }
 
@@ -391,30 +429,25 @@ footer {
 
 .fon:focus, .fon:hover{
   fill:var(--foc-col-blu);
-
   }
 
 
-.fon-fut{
-  fill: var(--foc-col-whited);
-  stroke:var(--foc-col-white);
-}
-
-
-    .fon-fut:focus, .fon-fut:hover{
-      fill:var(--foc-col-blu);
-      stroke:var(--foc-col-white);
-    }
-
-  .klient-icon{
+  .klients-link{
+    width: 170px;
+    height: 92px;
     fill: var(--bg-col-grey);
     display: block;
    }
 
-  .klient-icon:focus, .klient-icon:hover{
+  .klients-link:focus, .klients-link:hover{
     fill: var(--foc-col-blu);
     border: 1px solid  var(--foc-col-blu);
   }
+
+  .klient-logo{
+    max-width: 106px;
+    max-height: 60;
+   }
 
 .any-works .name {
   font-weight: 700;
@@ -527,6 +560,7 @@ button:hover {
 
 .fut-adress {
     display: block;
+    font-style: normal;
 }
 
 .paragraf-fut {
@@ -638,14 +672,40 @@ address {
 }
 
 .foot-icon{
-  fill:none;
   stroke: rgba(255, 255, 255, 0.1);
   list-style: none;
   display:flex;
   align-items: center;
   justify-content: center;
-  gap: 22px;
+  gap: 10px;
   padding: 0%;
-  color: red;}
-
+  margin: 0%;
+}
   
+.foot-links{
+  background-color:var(--foc-col-whited);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 11px;
+  margin: 0;
+  gap: 10px;
+}
+.foot-links:focus, .foot-links:hover {
+  background-color:var(--foc-col-blu);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 11px;
+  margin: 0;
+  gap: 10px;
+}
+  
+.fon-fut{
+  fill: var(--foc-col-white);
+}
+

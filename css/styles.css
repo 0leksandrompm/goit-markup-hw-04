@@ -54,25 +54,20 @@ body {
   }
 
 
-.our_section:last-child {
-  background-color: #f5f4fa;
- 
-}
-
-
 .command-section {
   box-sizing: content-box;
   background-color: #f5f4fa;
 }
 
-.our_section {
+.our_section, .our_command {
 padding-top: 94px; 
 padding-bottom: 94px;
-max-width: 1600px;
-margin-left: auto;
-margin-right: auto;
-background-color: rgba(245, 244, 250, 1);
+
  }
+
+.our_command{
+  background-color: rgba(245, 244, 250, 1);
+}
 
 .our{
   width: 270px;
@@ -213,8 +208,8 @@ background-color: rgba(245, 244, 250, 1);
   justify-content: center;
   fill: var(--bg-col-grey);
   gap: 22px;
-  padding: 16px 0 0 0;
-  margin: 0;
+  padding: 0;
+  margin: 16px 0 0 0;
 }
 
 .transcript{
@@ -267,7 +262,7 @@ background-color: rgba(245, 244, 250, 1);
   align-items: center;
   justify-content: center;
   fill: var(--bg-col-blu);
-  gap: 22px;
+  gap: 30px;
   padding: 0%;
   margin: 0%;
 }
@@ -288,16 +283,16 @@ background-color: rgba(245, 244, 250, 1);
 .header_web:hover,
 .footer_web:hover,
 .footer_web:focus .header_web:focus {
-  color: rgb(128, 43, 0);
+  color:  #2196f3;
 }
 
 ul .Link_Studio:active,
 .mail_link:active,
 .foot_link:active {
-  color: rgb(232, 85, 163);
+  color:  #2196f3;
 }
 .webstudio:active {
-  color: rgb(232, 85, 163);
+  color:  #2196f3;
 }
 
 .button {
@@ -335,6 +330,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  align-items: baseline;
  }
 
 .button_title {
@@ -569,6 +565,7 @@ button:hover {
 
 .paragraf-fut {
   line-height: 1.8;
+  font-weight: 400;
   letter-spacing: normal;
   color: #ffffff;
   display: block;
@@ -621,7 +618,7 @@ address {
 }
 
 .foot_link {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
   display: inline-block;
 
   margin: 0px;
@@ -676,9 +673,10 @@ address {
 .wellkoms {
   letter-spacing: 0.03em;
   margin: 0px 0px 20px 0px;
-  line-height: 1.2;
-  display: flex;
-  align-items: center;
+  line-height: 1.17;
+  font-size: 14px;
+  /* шрифт тут відповідає стандартному в body */
+  font-weight: 700;
 }
 
 .foot-icon{
